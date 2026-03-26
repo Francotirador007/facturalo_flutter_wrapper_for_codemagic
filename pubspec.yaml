@@ -1,0 +1,42 @@
+name: facturalo_flutter_wrapper
+description: Flutter wrapper generated from extracted Cordova web assets.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.7.0
+  webview_flutter_android: ^4.3.0
+  webview_flutter_wkwebview: ^3.12.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/web/
+    - assets/web/plugins/
+    - assets/web/plugins/cordova-plugin-android-permissions/
+    - assets/web/plugins/cordova-plugin-android-permissions/www/
+    - assets/web/plugins/cordova-plugin-btprinter/
+    - assets/web/plugins/cordova-plugin-btprinter/www/
+    - assets/web/plugins/cordova-plugin-camera/
+    - assets/web/plugins/cordova-plugin-camera/www/
+    - assets/web/plugins/cordova-plugin-downloadmanager/
+    - assets/web/plugins/cordova-plugin-downloadmanager/www/
+    - assets/web/plugins/cordova-plugin-file/
+    - assets/web/plugins/cordova-plugin-file/www/
+    - assets/web/plugins/cordova-plugin-file/www/android/
+    - assets/web/plugins/cordova-plugin-file/www/browser/
+    - assets/web/plugins/cordova-plugin-file-opener2/
+    - assets/web/plugins/cordova-plugin-file-opener2/www/
+    - assets/web/plugins/cordova-plugin-file-transfer/
+    - assets/web/plugins/cordova-plugin-file-transfer/www/
+    - assets/web/plugins/cordova-plugin-inappbrowser/
+    - assets/web/plugins/cordova-plugin-inappbrowser/www/
+    - assets/web/plugins/cordova-plugin-printer/
+    - assets/web/plugins/cordova-plugin-printer/www/
+    - assets/web/plugins/phonegap-plugin-barcodescanner/
+    - assets/web/plugins/phonegap-plugin-barcodescanner/www/
